@@ -34,7 +34,7 @@ public class Robot extends IterativeRobot {
 	public static final Shooter connon = new Shooter();
 	public static final PowerDistroBoard PDP = new PowerDistroBoard();
 	
-	public static OI oi = new OI();
+	//public static OI oi = new OI();
 
 	Command autonomousCommand;
 	SendableChooser<Command> chooser = new SendableChooser<>();
